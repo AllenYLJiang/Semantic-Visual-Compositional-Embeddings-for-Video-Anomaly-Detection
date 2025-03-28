@@ -10,6 +10,8 @@ In "Transformer-based-semantic-components-modeling"**
 Run caption2features768.py 
 encode "Component 1: xxx, Component 2: xxx, Component 3: xxx, Component 4: xxx" to an input embedding vector, encode "Component 5: xxx" to an output embedding vector 
 
+This requires downloading encoder weights from huggingface.co, with repository name longformer-base-4096 
+
 **Step2: Train transformer:**
 
 Run train_statespace_v3.py --smooth_or_predwithsmoothed_or_predwithunsmoothed predwithunsmoothed --num_transform 1 --epochs 60 --model_lr 2e-5
