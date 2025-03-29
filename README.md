@@ -33,7 +33,7 @@ $ python3 -m pip install -U -r requirements.txt
 **Training**
 - Run code for training ShanghaiTech
 ```
-Run main.py --flow_arch conditional_flow_model --gpu 0 --data_path /path/to/data/shanghaitech --with_fas --data_strategy 0 --not_in_test --exp_name exp --focal_weighting 
+Run main.py --flow_arch conditional_flow_model --gpu 0 --data_path /path/to/data/shanghaitech 
 ```
 
 
