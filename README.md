@@ -1,7 +1,5 @@
 ## Semantic-Visual-Compositional-Embeddings-for-Video-Anomaly-Detection
 
-<span style="color:red">Code upload will finish by March 31, 2025. </span>
-
 ## Semantic Branch: 
 In "Transformer-based-semantic-components-modeling"**
 
